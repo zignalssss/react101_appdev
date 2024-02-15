@@ -4,12 +4,14 @@ import './index.css';
 import App from './App';
 import Hello from './Hello'
 import reportWebVitals from './reportWebVitals';
+import Counter from './Counter';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
     {/* <App /> */}
-    <Hello name = "wiritipon" sur = "thapkhan"/>
+    {/* <Hello name = "wiritipon" sur = "thapkhan"/> */}
+    <Counter/>
   </React.StrictMode>
 );
 
